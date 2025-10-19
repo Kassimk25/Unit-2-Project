@@ -1,0 +1,166 @@
+*{  
+    padding: 0px;   
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+}
+html {
+    background: linear-gradient(to left, rgb(24, 170, 167), rgb(19, 159, 68));
+}
+.main {
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.First {
+    opacity:0.9;
+}
+
+.hello {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+#firstP {
+    padding-bottom:50px;
+}
+
+
+
+.nav-list li a {
+    text-decoration: none;
+    color:Black;
+    display: block;
+    width:100%;
+    padding:10px;
+    justify-content: center;
+    
+}
+
+.nav ul li a {
+    display: flex;
+    padding:10px;
+    border: none;
+   
+    
+}
+
+.nav-list li a:hover {
+    background-color: white;
+}
+
+.nav-list {
+    background: linear-gradient(to right, rgb(24, 170, 167), rgb(19, 159, 68));
+    color:Black;
+    list-style:none;
+    margin: 0;
+    display: none;
+    
+}
+
+
+nav:hover .nav-list {
+    display: block;
+    
+}
+
+
+.Columns {
+    vertical-align: top;
+}
+
+.Columns p {
+    padding:10px;
+}
+
+Aside { 
+    background-color:Aqua;
+    width:30%;
+    border:1px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+.ColumnsRobotics img {
+    width:200px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.DrivingCarsHead {
+    grid-column: 1 / span 3;
+    padding:20px;
+}
+
+.DrivingCarsP {
+    grid-column: 2 / span 2;
+    padding:20px;
+    padding-bottom:20px;
+}
+
+
+.DrivingCarsP img {
+    width:300px;
+    padding-bottom: 40px;
+}
+
+.nav-list li:nth-of-type(even) {
+    background: linear-gradient(to right, rgb(24, 170, 167), rgb(19, 159, 68));
+}
+
+.nav-list li:nth-of-type(odd) {
+    background: linear-gradient(to left, rgb(24, 170, 167), rgb(19, 159, 68));
+}
+
+
+
+
+@media screen and (min-width: 800px)
+{
+    .nav-icon {
+        display: none;
+    }
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav:hover .nav-list {
+    display: flex;
+}
+
+.Columns {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    padding-right: 20px;
+}
+
+main {
+    padding-bottom:100px;
+}
+
+.ColumnsRobotics {
+    display:inline-block;
+     width: 30%;
+    padding:30px;
+    vertical-align: top;
+}
+    
+.RoboticsFig {
+    text-align: center;
+}
+.RoboticsFig img {
+    width:200px;
+    border-radius:10px;
+    margin-right:10px;
+    
+
+}
+
+    
+}
